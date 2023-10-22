@@ -1,0 +1,91 @@
+body {
+  background-color: rgb(230, 230, 230);
+  color: rgb(50, 50, 50);
+  font-family: Helvetica;
+  font-size: 27px;
+  font-weight: lighter;
+}
+
+h1 {
+color: #800000;
+font-size: 70px;
+font-weight: bolder;
+letter-spacing: 4px;
+font-family: Oswald;
+}
+
+h2 {
+  color: #4A2C2C;
+  font-size: 32px;
+  font-family: Helvetica;
+  }
+
+a {
+  font-family: Helvetica;
+  text-decoration: none;
+  color: #371273;
+  font-weight: bold;
+  transition: 0.6s ease;
+}
+a:hover {
+  color: #00FFFF;
+  background-color: #4D5353;
+  padding: 10px 15px;
+  border-radius: 50px;
+}
+
+#Romain {
+  width: 350px;
+  border-radius: 25%;
+  box-shadow: 5px 5px 3px #800000;
+  margin: 15px auto;
+}
+
+p {
+  font-family: Helvetica;
+  font-weight: lighter;
+}
+
+div {
+  background: white;
+  padding: 45px;
+  border-radius: 19px;
+  box-shadow: 0 15px 35px rgba(20, 20, 20, 0.2);
+  text-align: center;
+  margin: 245px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+li {
+  display: inline;
+  padding: 15px;
+}
+
+i {
+  font-size: 45px;
+}
+
+#Présentation p {
+  margin-bottom: 40px;
+}
+
+@media (max-width: 760px) {
+  div {
+    width : 600px;
+}
+
+@media (max-width: 500px) {
+  div {
+    width : 400px;
+}
+
+
+@media (max-width: 400px) {
+  div {
+    width : 300px;
+}
+
